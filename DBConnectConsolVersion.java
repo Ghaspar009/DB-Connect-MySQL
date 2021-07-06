@@ -15,7 +15,7 @@ public class DBConnectConsolVersion {
             password = new String(pass);
 
             Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://150.254.78.34:3306/s452689_project", username, password);
+            Connection connection = DriverManager.getConnection("jdbc:mysql:**********", username, password);
             Statement statement = connection.createStatement();
 
             String order;
